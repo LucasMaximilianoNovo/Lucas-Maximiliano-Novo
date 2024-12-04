@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: radial-gradient(circle, #9067F0 0%, #250D4F 100%);
+    color: white;
+}
+
+.titulo-destaque {
+    color: #2C14B7;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 30%;
+}
+
+.apresentacao__conteudo {
+    width: 685px;
+    height: 475px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 48px;
+    font-family: "Alegreya", serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Aleo", serif;
+}
