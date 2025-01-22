@@ -14,7 +14,7 @@ body {
 }
 
 .titulo-destaque {
-    color: #2C14B7;
+    color: #0EB7FF;
 }
 
 .apresentacao {
@@ -60,4 +60,10 @@ img {
     margin: 15px;
     color: white;
     text-decoration: none;
+}
+
+.foto__perfil {
+    border: solid #1C072E;
+    border-radius: 60px;
+    border-width: 10px
 }
