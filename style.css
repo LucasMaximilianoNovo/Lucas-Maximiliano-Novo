@@ -18,7 +18,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,6 +31,9 @@ img {
 .apresentacao__conteudo {
     width: 685px;
     height: 475px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .apresentacao__conteudo__titulo {
