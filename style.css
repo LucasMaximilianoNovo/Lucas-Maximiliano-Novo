@@ -7,9 +7,8 @@
 }
 
 body {
-    height: 100px;
     box-sizing: border-box;
-    background-image: radial-gradient(circle, #9067F0 -120%, #250D4F 120%);
+    background-image: radial-gradient(closest-side,#9067F0, #250D4F);
     color: white;
 }
 
@@ -18,7 +17,7 @@ img {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 12% 18%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,4 +86,13 @@ img {
 
 .imagens__botao {
     width: 23px;
+}
+
+.rodape {
+    background-color: #837FF0;
+    filter: brightness(80%);
+    text-align: center;
+    padding: 10px;
+    font-family: "Alegrya", serif;
+    font-weight: 600;
 }
