@@ -16,8 +16,24 @@ img {
     width: 30%;
 }
 
+.cabecalho {
+    padding: 4% 0% 0% 18%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 30px
+}
+
+.cabecalho__menu__link {
+    font-family: "Aleo", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
 .apresentacao {
-    padding: 12% 18%;
+    padding: 9% 18%;
     display: flex;
     align-items: center;
     justify-content: space-between;
