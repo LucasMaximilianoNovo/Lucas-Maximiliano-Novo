@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,100..900&display=swap');
 
 :root {
-    --cor-letra: white;
+    --cor-primaria: #615EFC;
+    --cor-secundaria: #EEEEEE;
+    --cor-terciaria: #D1D8C5;
+    --cor-hover: #7E8EF1;
 
     --fonte-tiutlos: "Alegreya", serif;
     --fonte-textos: "Aleo", serif;
@@ -15,8 +18,8 @@
 
 body {
     box-sizing: border-box;
-    background-image: radial-gradient(closest-side,#9067F0, #250D4F);
-    color: var(--cor-letra);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 img {
@@ -36,7 +39,7 @@ img {
     font-family: var(--fonte-tiutlos);
     font-size: 25px;
     font-weight: 600;
-    color: var(--cor-letra);
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 
@@ -61,7 +64,7 @@ img {
 }
 
 .titulo__destaque {
-    color: #0EB7FF;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -90,22 +93,21 @@ img {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    color: var(--cor-letra);
+    color: var(--cor-secundaria);
     width: 220px;
     height: 20px;
-    border: solid black;
+    border: solid var(--cor-terciaria);
     border-radius: 26px;
     padding: 15px;
 }
 
 .links__botao:hover {
-    background-color: #9059ee;
+    background-color: var(--cor-hover);
 }
 
 .foto__perfil {
-    border: solid #1C072E;
-    border-radius: 60px;
-    border-width: 10px
+    border-radius: 10px;
+    border-width: 5px
 }
 
 .imagens__botao {
@@ -113,11 +115,11 @@ img {
 }
 
 .rodape {
-    background-color: #837FF0;
+    background-color: var(--cor-primaria);
     filter: brightness(80%);
     text-align: center;
     padding: 10px;
     font-family: var(--fonte-textos);
     font-weight: 600;
-    color: var(--cor-letra);
+    color: var(--cor-secundaria);
 }
