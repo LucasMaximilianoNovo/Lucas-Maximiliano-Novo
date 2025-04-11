@@ -134,5 +134,9 @@ img {
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5% 10%;
+    }
+    .apresentacao__conteudo {
+        width: auto;
     }
 }
