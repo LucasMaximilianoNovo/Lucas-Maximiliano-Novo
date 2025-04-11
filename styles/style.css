@@ -48,11 +48,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 62px;
 }
 
 .apresentacao__conteudo {
-    width: 685px;
-    height: 475px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -94,8 +94,7 @@ img {
     text-align: center;
     text-decoration: none;
     color: var(--cor-secundaria);
-    width: 220px;
-    height: 20px;
+    width: 35%;
     border: solid var(--cor-terciaria);
     border-radius: 26px;
     padding: 15px;
@@ -111,15 +110,21 @@ img {
 }
 
 .imagens__botao {
-    width: 23px;
+    width: 10%;
 }
 
 .rodape {
     background-color: var(--cor-primaria);
     filter: brightness(80%);
     text-align: center;
-    padding: 0.6%;
+    padding: 10px;
     font-family: var(--fonte-textos);
     font-weight: 600;
     color: var(--cor-secundaria);
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
